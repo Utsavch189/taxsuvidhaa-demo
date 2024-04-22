@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Tax Filing</title>
+    <style>
+        /* Reset CSS */
+        
+        body,
+        body * {
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        /* Container */
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* Logo */
+        
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .logo img {
+            max-width: 150px;
+            height: auto;
+        }
+        /* Content */
+        
+        .content {
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        /* Heading */
+        
+        .heading {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        /* Message */
+        
+        .message {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        /* CTA Button */
+        
+        .cta-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .cta-button a {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        /* Footer */
+        
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://coreserver.taxsuvidhaa.com/media/taxsuvidha-logo.png" alt="Company Logo">
+        </div>
+        <div class="content">
+            <h1 class="heading">TaxSuvidha</h1>
+            <p class="message">Dear {{client_name}},</p>
+            <p class="message">{{body}}</p>
+
+        </div>
+        <div class="footer">
+            <p>If you have any questions or need further assistance, please don't hesitate to contact us at <a href="mailto:info@yourtaxwebsite.com">official@taxsuvidhaa.com</a>.</p>
+            <p>Thank you for choosing our services.</p>
+            <p>TaxSuvidha, Income Tax Filing Team</p>
+        </div>
+    </div>
+</body>
+
+</html>
